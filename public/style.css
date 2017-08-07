@@ -1,0 +1,95 @@
+*{
+	box-sizing : border-box;
+	font-family: 'Raleway', sans-serif
+}
+
+.author_name {
+	font-family: 'Comfortaa', cursive;
+	font-size: 20px;
+}
+.text{
+	word-wrap: break-word;
+	float: right;
+	max-width:33%;
+	margin-right: 8px;
+	margin-top : 25px;
+	overflow: scroll;
+	height: 400px;
+	max-height: 400px;
+	font-family: 'Comfortaa', cursive;
+}
+
+.nav {
+	background: linear-gradient(to left, #00c6ff , #0072ff);
+	height : 100px;
+	width : 100%;
+	font-size : ;
+	border-style : none;
+	padding-top: 20px;	
+	text-align: center;
+	font-size : 30px;
+	color: white;
+	font-weight: bold;
+	
+}
+
+.body {
+	height : 450px;
+	width: 90%;
+	border: blue 1px solid;
+	margin-top : 50px;
+	margin-left : 5%;
+	margin-bottom : 20px;
+	border-radius : 15px;
+	max-width: 100%;
+	
+	
+}
+
+
+.sakecado {
+	float : middle;
+	max-width: 90%;
+	height: 400px;
+	margin-top: 25px;
+	margin-left : 10px;
+	border-radius : 15px;
+	vertical-align: middle;
+	text-align: center;
+}
+
+.body1 {
+	height : 450px;
+	width: 90%;
+	border: blue 1px solid;
+	margin-left : 5%;
+	border-radius : 15px;
+	margin-bottom : 20px;
+}
+
+
+
+#up{
+	position: fixed;
+	right :10px;
+	top : -100px;
+	width : 50px;
+	height: 50px;
+	background: grey;
+	padding : 5px;
+	font-size : 12px;
+	text-align : center;
+	padding-top : 11.5px;
+	border-radius: 40px;
+	opacity: 0.7;
+	color : white;
+	
+}
+
+#up:hover {
+	background-color : #454b5b;
+	font-weight: bold;
+
+}
+
+
